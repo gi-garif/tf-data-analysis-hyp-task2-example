@@ -11,10 +11,10 @@ def solution(x: np.array, y: np.array) -> bool:
     # Не меняйте название функции и её аргументы    
 
     # загрузка выборок
-    hist_data = pd.read_csv("./historical_data.csv")
-    test_data_1 = pd.read_csv("./modified_data_of_type_1.csv")
-    test_data_2 = pd.read_csv("./modified_data_of_type_2.csv")
-    test_data_3 = pd.read_csv("./modified_data_of_type_3.csv")
+    hist_data = pd.read_csv("/historical_data.csv")
+    test_data_1 = pd.read_csv("/modified_data_of_type_1.csv")
+    test_data_2 = pd.read_csv("/modified_data_of_type_2.csv")
+    test_data_3 = pd.read_csv("/modified_data_of_type_3.csv")
 
     hist = hist_data.iloc[0].to_list()
     test1 = test_data_1.iloc[0].to_list()
